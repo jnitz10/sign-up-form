@@ -1,0 +1,11 @@
+
+
+.left{
+    width: 40vw;
+}
+
+.right{
+    width: 60vw;
+    background-color: #000000;
+}
+    

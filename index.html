@@ -5,8 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="content">
+    <div class="left">
+      <div class="logo">
+	<img src="./modbus-podseb.svg" class="sigil">
+	<h1 class="modbus-podseb">~modbus-podseb</h1>
+      </div>
+    </div>
+    <div class="right">
+      <div class="dummy-text">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      </div>
+      <div class="form">
+	<p class="form-title">Sign up now!</p>
+	<div class="input">
+	  <label for="first-name">First Name</label>
+	  <input type="text" name="first-name" id="first-name" required>
+	</div>
+
+	<div class="input">
+	  <label for="last-name">Last Name</label>
+	  <input type="text" name="last-name" id="last-name">
+	</div>
+
+	<div class="input">
+	  <label for="email">Email</label>
+	  <input type="email" name="email" id="email" required>
+	</div>
+
+	<div class="input">
+	  <label for="phone-number" name="phone-number" id="phone-number">Phone Number</label>
+	  <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+	</div>
+
+        <div class="input">
+          <label for="password">Password</label>
+          <input type="password" name="passwor" id="passwor" required>
+        </div>
+                    
+        <div class="input">
+          <label for="confirm-password">Confirm password</label>
+          <input type="password" name="confirm-password" id="confirm-password" required>
+        </div>
+      </div>
+      <div class="button">
+	<button type="submit">Create Account</button>
+      </div>
+      </form>
+      <div class="log-in">
+        <p>Already have an account?</p><a href="#">Log In</a>
+      </div>
+    </div>
+  </div>
+  
     
 </body>
 </html>
